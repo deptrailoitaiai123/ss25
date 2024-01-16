@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = parseInt(prompt("Nhập số a"));
+      let b = parseInt(prompt("Nhập số b"));
+      let sumchan = 0;
+      let sumle = 0;
+
+      for (let i = a + 1; i < b; i++) {
+        if (i % 2 === 0) {
+          sumchan += i;
+        } else {
+          sumle += i;
+        }
+      }
+
+      console.log("Tổng số chẵn là " + sumchan);
+      console.log("Tổng số lẻ là " + sumle);
+    </script>
+  </body>
+</html>
